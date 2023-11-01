@@ -52,6 +52,13 @@ body{
     outline: none;
     border: 2px solid rgb(132, 190, 240);
 }
+.modal-window-button{
+    background-color: rgb(172, 208, 255);
+    color: white;
+}
+.modal-window-button:hover{
+    background-color: rgb(149, 195, 255);
+}
 /* применять к body такие стили - не совсем корректный способ, однако, в случае, когда вся страница - это два элемента, один из которых скрыт, это хороший вариант */
 .btn-start{
     background-color: rgb(216, 237, 255);
